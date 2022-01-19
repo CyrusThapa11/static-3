@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blurry Loading</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- menu -->
+    <div class="menu target">
+      <div class="menu-line menu-line-1"></div>
+      <div class="menu-line menu-line-2"></div>
+    </div>
+    <!-- end of menu -->
+
+    <!-- navbar -->
+    <nav class="navbar target">
+      <a href="#home" class="navbar-link">Home</a>
+      <a href="#popular" class="navbar-link">Popular Cars</a>
+      <a href="#video" class="navbar-link">Video Gallery</a>
+      <a href="#image-gallery" class="navbar-link">Image Gallery</a>
+      <a href="#contact" class="navbar-link">Contact</a>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- section- 1 -->
+    <div class="wrapper">
+      <section class="section-1 target" id="home">
+        <h1 class="section-heading section-1-heading">Classic cars</h1>
+        <img src="./images/car-section1.png" alt="" />
+      </section>
+    </div>
+    <!-- end section-1 -->
+
+    <!-- section- 2 -->
+    <div class="wrapper">
+      <section class="section-2 target" id="popular">
+        <h1 class="section-heading">Popular Cards</h1>
+        <div class="cards-wrapper">
+          <div class="card">
+            <h2 class="car-name">Car Name 1</h2>
+            <img src="./images/car-1.jpg" alt="" class="card-img" />
+            <h3 class="car-price">$200,000</h3>
+            <button class="car-btn">See More</button>
+          </div>
+          <div class="card">
+            <h2 class="car-name">Car Name 2</h2>
+            <img src="./images/car-2.jpg" alt="" class="card-img" />
+            <h3 class="car-price">$700,000</h3>
+            <button class="car-btn">See More</button>
+          </div>
+          <div class="card">
+            <h2 class="car-name">Car Name 3</h2>
+            <img src="./images/car-3.jpg" alt="" class="card-img" />
+            <h3 class="car-price">$120,000</h3>
+            <button class="car-btn">See More</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- end section-2 -->
+
+    <!-- section- 3 -->
+    <div class="wrapper">
+      <section class="section-3 target" id="video">
+        <h1 class="section-heading">Video Callery</h1>
+        <div class="videos-wrapper center">
+          <video
+            src="./images/car-video-1.mp4"
+            loop
+            width="500"
+            class="video"
+          ></video>
+          <video
+            src="./images/car-video-2.mp4"
+            loop
+            width="500"
+            class="video"
+          ></video>
+          <video
+            src="./images/car-video-3.mp4"
+            loop
+            width="500"
+            class="video"
+          ></video>
+        </div>
+        <div class="videos-wrapper center">
+          <video
+            src="./images/car-video-4.mp4"
+            loop
+            width="500"
+            class="video"
+          ></video>
+          <video
+            src="./images/car-video-5.mp4"
+            loop
+            width="500"
+            class="video"
+          ></video>
+          <video
+            src="./images/car-video-6.mp4"
+            loop
+            width="500"
+            class="video"
+          ></video>
+        </div>
+      </section>
+    </div>
+    <!-- end section-3 -->
+
+    <!-- section- 4 -->
+    <div class="wrapper">
+      <section class="section-4 target" id="image-gallery">
+        <h1 class="section-heading">Image Gallery</h1>
+        <div class="gallery center">
+          <div class="gallery-shelf"></div>
+          <img src="./images/gallery-car-1.jpg" alt="" class="gallery-img-1" />
+          <img src="./images/gallery-car-2.jpg" alt="" class="gallery-img-2" />
+          <img src="./images/gallery-car-3.jpg" alt="" class="gallery-img-3" />
+        </div>
+        <div class="gallery center">
+          <div class="gallery-shelf"></div>
+          <img src="./images/gallery-car-4.jpg" alt="" class="gallery-img-1" />
+          <img src="./images/gallery-car-5.jpg" alt="" class="gallery-img-2" />
+          <img src="./images/gallery-car-6.jpg" alt="" class="gallery-img-3" />
+        </div>
+      </section>
+    </div>
+    <!-- end section-4 -->
+
+    <!-- section- 5 -->
+    <div class="wrapper">
+      <section class="section-5 target" id="contact">
+        <h1 class="section-heading">Contact Us</h1>
+        <form action="#" class="contact-form">
+          <input type="text" class="form-input" placeholder="Full Name" />
+          <input type="email" class="form-input" placeholder=" Email" />
+          <textarea
+            name=""
+            class="form-input"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+          ></textarea>
+
+          <input class="form-btn" type="submit" value="Submit" />
+        </form>
+        <p class="copyright">
+          Copyright &copy; CodeAndCreate All rights reserved.
+        </p>
+      </section>
+    </div>
+    <!-- end section-5 -->
+
+    <script src="./script.js"></script>
+  </body>
+</html>
